@@ -1,10 +1,10 @@
 # InterviewDiver
 
-A full-stack AI-powered web application that helps candidates practice technical interviews, receive structured feedback, and track progress over time.
+A full-stack AI-powered web application that helps candidates practice behavioral interviews, receive structured feedback, and track progress over time.
 
 ## Overview
 
-InterviewDiver is a comprehensive interview preparation platform that simulates realistic interviews using AI and provides actionable insights to help users improve. The application combines customizable interview templates, real-time question flows, and detailed post-interview feedback so candidates can identify strengths and weaknesses across multiple practice sessions.
+InterviewDiver is a comprehensive interview preparation platform that simulates realistic behavioral interviews using AI and provides actionable insights to help users improve. The application combines customizable interview templates, real-time question flows, and detailed post-interview feedback so candidates can identify strengths and weaknesses across multiple practice sessions.
 
 ## Key Features
 
