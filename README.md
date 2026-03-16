@@ -8,17 +8,12 @@ InterviewDiver is a comprehensive interview preparation platform that simulates 
 
 ## Key Features
 
-### For Candidates
-
 - **AI-Generated Interviews**: Run practice interviews powered by OpenAI, tailored to your selected role, seniority, and focus areas.
 - **Customizable Templates**: Choose or configure interview templates (e.g., behavioral, system design, coding) to match upcoming interviews.
 - **Live Interview Flow**: Step through structured questions one by one with clear prompts and guidance.
 - **Actionable Feedback**: Receive organized feedback summaries after each session, including strengths, areas to improve, and suggested follow-up questions.
 - **History & Progress Tracking**: Review past interviews, revisit questions, and compare feedback over time.
 - **Personal Settings**: Adjust difficulty, topics, and other options to align with your learning goals.
-
-### For Interview Coaches / Power Users
-
 - **Template Library Management**: Create and refine reusable templates for different roles and skill levels.
 - **Consistent Questioning**: Standardize interview flows so multiple practice sessions follow comparable structures.
 - **Feedback Structure**: Use the app’s feedback layout to keep notes organized across multiple candidates or sessions.
@@ -116,11 +111,9 @@ frontend/
    Create a `.env` file in `backend/` with values similar to:
 
    ```env
+   OPENAI_API_KEY=sk-your-openai-api-key-here
+   JWT_SECRET_KEY=your-super-secret-jwt-key-change-this
    DATABASE_URL=sqlite:///./interview_diver.db
-   SECRET_KEY=your-secret-key
-   ALGORITHM=HS256
-   ACCESS_TOKEN_EXPIRE_MINUTES=60
-   OPENAI_API_KEY=your-openai-api-key
    ```
 
    Adjust `DATABASE_URL` if you are using Postgres or another database.
